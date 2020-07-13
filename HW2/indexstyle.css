@@ -1,0 +1,43 @@
+/*
+File: /usr/cs/undergrad/2021/amazzare/public_html/indexstyle.css
+Assignment: HW2 (First Web Page)
+Name: Alex Mazzarese
+School: UMass Lowell
+Course: 91.61 GUI Programming I
+Email: Alex_Mazzarese@student.uml.edu
+Description: This file contains styles for the .html file in HW2.
+Copyright (c) 2020 by Alex Mazzarese. All Rights Reserved. May Be Freely Copied Or Excerpted For Educational Purposes With Credit To The Author.
+Created by Alex Mazzarese on July 10, 2020 at 3:45 PM
+Updated by Alex Mazzarese on July 13, 2020 at 1:50 PM
+*/
+
+h1 {
+font-size: 3pc;
+font-weight: bold;
+text-align: center;
+}
+
+h3 {
+font-weight: bold;
+font-size: 2pc;
+}
+
+p + p {
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+h3 + p {
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+footer {
+font-style: italic;
+text-align: center;
+}
+
+div {
+background-size: 100%;
+}
+
