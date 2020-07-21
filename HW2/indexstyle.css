@@ -8,36 +8,57 @@ Email: Alex_Mazzarese@student.uml.edu
 Description: This file contains styles for the .html file in HW2.
 Copyright (c) 2020 by Alex Mazzarese. All Rights Reserved. May Be Freely Copied Or Excerpted For Educational Purposes With Credit To The Author.
 Created by Alex Mazzarese on July 10, 2020 at 3:45 PM
-Updated by Alex Mazzarese on July 13, 2020 at 1:50 PM
+Updated by Alex Mazzarese on July 13, 2020 at 10:50 PM
 */
 
 h1 {
 font-size: 3pc;
 font-weight: bold;
 text-align: center;
+padding: 20px 20px 20px 20px;
+border: 3px solid black;
+width: 400px;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 
-h3 {
+h2 {
 font-weight: bold;
 font-size: 2pc;
-}
-
-p + p {
-border-top: 1px solid black;
-border-bottom: 1px solid black;
-}
-
-h3 + p {
-border-top: 1px solid black;
-border-bottom: 1px solid black;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: underline;
 }
 
 footer {
 font-style: italic;
 text-align: center;
+font-size: 75%;
+padding: 5px 5px 5px 5px;
 }
 
-div {
-background-size: 100%;
+section {
+font-size: 1pc;
+text-align: center;
+padding: 5px 5px 5px 5px;
 }
 
+a {
+color: green;
+font-weight: bold;
+padding: 10px 10px 10px 10px;
+}
+
+a:hover {
+color: yellow;
+}
+
+html {
+height: auto;
+width: auto;
+background-image: url(https://cdn11.bigcommerce.com/s-x49po/images/stencil/1280x1280/products/5463/14035/MAHER4123SOMEWHEREINBETWEEN100X100__11577.1421669491.jpg?c=2&imbypass=on); /* Source: https://www.w3schools.com/cssref/pr_background-image.asp (W3Schools.com) */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}
