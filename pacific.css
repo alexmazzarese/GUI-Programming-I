@@ -1,0 +1,134 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+	width: 80%;
+}
+
+header {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	padding: 1px 1px 1px 1px;
+	width: 83.6%;
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
+
+nav {
+  margin-top: 0px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+ul {
+	list-style-image: url(marker.gif);
+	list-style-position: inside;
+	text-align: left;
+	margin-right: 30px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+body {
+	background-image: url(ptrbackground.jpg);
+	background-color: #00569f;
+	text-align: center;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80%;
+	min-width: 600px;
+	padding: 20px 20px 20px 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+	text-align: left;
+	padding-right: 125px;
+	padding-left: 125px;
+}
+
+img {
+	float: left;
+	padding-right: 25px;
+}
+
+nav ul {
+	font-size: 1.2em;
+	font-weight: bold;
+	list-style: none;
+	background-color: lightblue;
+	text-align: left;
+	float: left;
+	height: 644px;
+	width: 20%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0px;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+	text-align: left;
+	padding-top: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+	text-align: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#content {
+  background-color: white;
+	width: 83.8%;
+	min-width: 600px;
+	height: 572px;
+}
+
+span {
+	color: #3399CC;
+	font-weight: bold;
+}
+
+dt {
+	color: #000033;
+	padding: 10px;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: left;
+	font-style: italic;
+	padding: 20px;
+	background-color: white;
+	width: 80%;
+	min-width: 600px;
+	font-size: 90%;
+	margin-top: 0px;
+}
