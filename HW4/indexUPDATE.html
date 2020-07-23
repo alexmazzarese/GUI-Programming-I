@@ -1,0 +1,189 @@
+<!--
+File: /usr/cs/undergrad/2021/amazzare/public_html/index.html
+Assignment: HW4 (First Web Page)
+Name: Alex Mazzarese
+School: UMass Lowell
+Course: 91.61 GUI Programming I
+Email: Alex_Mazzarese@student.uml.edu
+Description: An update on HW2 which adds Bootstrap functionality and features. T
+he only part I couldn't get working was the background dissappeared from my orig
+inal .css file. I will fix this in the future.
+Copyright (c) 2020 by Alex Mazzarese. All Rights Reserved. May Be Freely Copied Or Excerpted For Educational Purposes With Credit To The Author.
+Created by Alex Mazzarese on July 19, 2020 at 2:45 PM
+Updated by Alex Mazzarese on July 22, 2020 at 9:50 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/indexstyle.css"/>
+
+    <title>
+     Alex Mazzarese's Website
+    </title>
+
+   </head>
+
+   <body>
+
+   <nav class="navbar fixed-top navbar-template">
+   <a class ="navbar-brand" href="#">Alex Mazzarese</a>
+   <div class="d-flex flex-row order-2 order-sm-4">
+   <ul class="navbar-nav flex-row">
+   </ul>
+   </div>
+   </nav>
+
+     <div>
+
+
+     <section>
+
+     <img src="https://i1.sndcdn.com/avatars-000411448851-zp9vd8-t500x500.jpg" alt="AlexMazzarese"> <!--Source: https://www.w3schools.com/html/html_images.asp (W3Schools.com) -->
+
+     </section>
+
+     <div class="container">
+     <div class="row">
+     <div class="col-md-6">
+       <h2>
+       Information:
+       </h2>
+
+       <section>
+
+       <p>
+       Computer Science Major (UMass Lowell)
+       </p>
+        <p>
+        91.61 GUI Programming I (Section 021) Student
+        </p>
+        <p>
+        Musician/Producer (10+ Years)
+        </p>
+        <p>
+        Designer And Vintage Clothing Reseller
+        </p>
+
+        </section>
+      </div>
+
+      <div class="col-md-6">
+        <h2>
+        Contact:
+        </h2>
+
+        <section>
+
+        <p>
+        Phone: <em> (978) 806-5759 </em>
+        </p>
+        <p>
+        Email: <a href="mailto:alexmazzarese@gmail.com">alexmazzarese@gmail.com</a>
+        </p>
+        <p>
+        Student Email: <a href="mailto:Alex_Mazzarese@student.uml.edu">Alex_Mazzarese@student.uml.edu</a>
+        </p>
+        <p>
+        Instagram: <em> <a href="https://www.instagram.com/alexmazzarese/">@alexmazzarese</a></em>
+        </p>
+
+        </section>
+        </div>
+       </div>
+      <h2>
+      Background:
+      </h2>
+
+      <section>
+
+
+        <p>
+        Since the very young age of 9, I have had an extremely strong connection with music. That same year my dad got me my first guitar and taught me how to play. From there, I would later learn 5 other instruments, acquire the skills and tools necessary for music production, and get accepted to Berklee School of Music. But although my passion for music was strong, It wasn't until I found Computer Science that I truly began to find myself academically and professionally.
+        </p>
+        <p>
+        After graduating from Andover High School in 2015, I attended the University of Vermont for about a year studying Electrical Engineering. However, after much debate I decided to return back to Massachusetts to pursue education where I could recieve in-state tuition rates. Once I returned back to Massachusetts, I tried taking a coding class at Middlesex Community College, and fell in love instantly.
+        </p>
+        <p>
+        Once I finally transferred to UMass Lowell, I instantly joined the Computer Science major. I found that computer science helped me accomplish all my academic goals, as well as personal goals relating to my interests in music and selling clothing online. One of my current ventures is attempting to design a VST (Vitual Studio Techonology) app of my very own, using my knowledge of both coding and music! I look forward to pursuing work in the computing and music fields in the years to come, after graduating with my bachelors in Computer Science from UMass Lowell.
+
+        </section>
+
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+          <h2>
+          GUI Programming I Projects:
+          </h2>
+
+          <section>
+
+          <p>
+          <a href="https://github.com/alexmazzarese/GUI-Programming-I/tree/master/HW2">HW2 Source Code</a>
+          (7/13/20)
+          </p>
+          <p>
+          <a href="https://github.com/alexmazzarese/GUI-Programming-I/tree/master/HW3">HW3 Source Code</a>
+          (7/20/20)
+          </p>
+
+        </section>
+        </div>
+
+        <div class="col-md-6">
+          <h2>
+          Other Projects:
+          </h2>
+
+          <section>
+
+          <p>
+          <a href="https://www.grailed.com/666closet/qQ1OxDoNug">Grailed Page</a> (My Side Business Of Reselling Designer And Vintage Clothes)
+          </p>
+           <p>
+           <a href="https://alexmazzarese.bandcamp.com">BandCamp</a> (Music I've Made)
+           </p>
+           <p>
+           <a href="https://github.com/alexmazzarese">GitHub</a> (Coding Projects)
+           </p>
+
+           </section>
+         </div>
+         </div>
+
+         <h2> Contact Directly: </h2>
+
+         <div class="container">
+           <form method="get" id="form1" role="form">
+               <div class="form-group">
+                 <label for="name">Name:</label>
+                 <input type="name" class="form-control" id="name" placeholder="Enter name">
+               <div class="form-group">
+               <label for="email">Email:</label>
+               <input type="email" class="form-control" id="email" placeholder="Enter email">
+             <div class="form-group">
+               <label for="message">Message:</label><br>
+               <input type="text" class="form-control" id="message" placeholder="Enter your message here">
+       </label>
+
+       <button type="submit" form="form1" value="Submit">Submit</button>
+
+       </div>
+
+       </div>
+
+       <footer>
+              Copyright Alex Mazzarese 2020
+       </footer>
+
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+       </body>
+      </html>
