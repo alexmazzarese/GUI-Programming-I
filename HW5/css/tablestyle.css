@@ -1,0 +1,54 @@
+/*
+    Alex Mazzarese
+    Homework 5 (CSS File)
+    Gui Programming I (Sec 021)
+    Start Date: 7/26/20
+    End Date: 7/29/20
+*/
+
+body {
+  background: brown;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 20px;
+  color: white;
+  text-weight: bold;
+  text-align: left;
+  padding-left: 150px;
+}
+
+form {
+  height: 300px;
+}
+
+label {
+  color: white;
+}
+
+td:first-child{
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+
+tr:first-child > td{
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+
+.tableForm {
+  background: red;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+#table_container{
+  margin-top: 20px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+}

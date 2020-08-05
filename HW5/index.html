@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+     Alex Mazzarese
+     Homework 5 (HTML File)
+     Gui Programming I (Sec 021)
+     Start Date: 7/26/20
+     End Date: 7/29/20
+-->
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Homework 5</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/tablestyle.css">
+
+  </head>
+
+  <body>
+
+    <h1 id = "test">Homework 5</h1>
+
+    <div class="container">
+      <div class="tableForm">
+
+        <form role="form">
+          <!-- Form to control user input -->
+          <div class="form-group">
+            <label>Enter a horizontal value (X1 to X2): </label>
+            <div class=" form-row">
+
+              <div class "col-md-8">
+                <input class="form-control" id="x1" placeholder="X1">
+              </div>
+
+              <div class = "col-md-8">
+                <input class="form-control" id="x2" placeholder="X2">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Enter a vertical value (Y1 to Y2): </label>
+            <div class=" form-row">
+
+              <div class "col-md-8">
+                <input class="form-control" id="y1" placeholder="Y1">
+              </div>
+
+              <div class = "col-md-8">
+                <input class="form-control" id="y2" placeholder="Y2">
+              </div>
+
+            </div>
+          </div>
+          <!-- Allows the user to submit and connect to java function matrixSetup() -->
+          <button type="button" onclick="matrixSetup()">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Placeholder for the table -->
+    <div class="container">
+      <div id=table_container>
+        <table class="table table-dark" id="main_matrix">
+        </table>
+
+      </div>
+    </div>
+    <!-- My javascript file -->
+    <script src="js/dynamicMatrix.js"></script>
+  </body>
+</html>
