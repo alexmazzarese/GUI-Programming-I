@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+     Alex Mazzarese
+     Homework 6 (HTML File)
+     GUI Programming I (Sec 021)
+     Start Date: 8/1/20
+     End Date: 8/5/20
+-->
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Homework 6</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/tablestyle.css">
+
+  </head>
+
+  <body>
+
+    <h1 id = "test">Homework 6</h1>
+
+    <div class="container">
+      <div class="tableForm">
+
+        <form role="form" id="tableForm">
+          <!-- Form to control user input -->
+          <div class="form-group">
+            <label>Enter a horizontal value (X1 to X2): </label>
+            <div class=" form-row">
+
+              <div class "col-md-7">
+                <input class="form-control" name="x1" id="x1" placeholder="X1">
+                <div class="errorMessage" id="x1error" for="x1"></div>
+              </div>
+
+              <div class = "col-md-7">
+                <input class="form-control" name="x2" id="x2" placeholder="X2">
+                <div class="errorMessage" id="x2error" for="x2"></div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Enter a vertical value (Y1 to Y2): </label>
+            <div class=" form-row">
+
+              <div class "col-md-7">
+                <input class="form-control" name="y1" id="y1" placeholder="Y1">
+                <div class="errorMessage" id="y1error" for="y1"></div>
+              </div>
+
+              <div class = "col-md-7">
+                <input class="form-control" name="y2" id="y2" placeholder="Y2">
+                <div class="errorMessage" id="y2error" for="y2"></div>
+              </div>
+
+            </div>
+          </div>
+          <!-- Allows the user to submit and connect to java function matrixSetup() -->
+          <button type="button" onclick="matrixSetup()">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Placeholder for the table -->
+    <div class="container">
+      <div id=table_container>
+        <table class="table table-dark" id="main_matrix">
+        </table>
+
+      </div>
+    </div>
+    <!-- JQuery Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <!-- My javascript file -->
+    <script src="js/dynamicMatrix.js"></script>
+  </body>
+</html>
