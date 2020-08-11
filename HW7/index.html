@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+     Alex Mazzarese
+     Homework 7 (HTML File)
+     GUI Programming I (Sec 021)
+     Start Date: 8/6/20
+     End Date: 8/10/20
+-->
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Homework 7</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/tablestyle.css">
+
+  </head>
+
+  <body>
+
+    <h1 id = "test">Homework 7</h1>
+
+    <div class="container">
+      <div class="tableForm">
+
+        <form role="form" name="tableForm" id="tableForm" method="GET">
+          <!-- Form to control user input -->
+          <div class="form-group">
+            <label>Enter a horizontal value (X1 to X2): </label>
+            <div class=" form-row">
+
+              <div>
+                <input type="number" name="x1" id="x1" value="0">
+                <div id="x1slider"></div>
+              </div>
+
+              <div>
+                <input type="number" name="x2" id="x2" value="0">
+                <div id="x2slider"></div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Enter a vertical value (Y1 to Y2): </label>
+            <div class=" form-row">
+
+              <div>
+                <input type="number" name="y1" id="y1" value="0">
+                <div id="y1slider"></div>
+              </div>
+
+              <div>
+                <input type="number" name="y2" id="y2" value="0">
+                <div id="y2slider"></div>
+              </div>
+
+            </div>
+          </div>
+          <!-- Allows the user to submit and connect to java function matrixSetup() -->
+          <button type="button" onclick="matrixSave()">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Placeholder for the table -->
+    <div class="container">
+      <div id=table_container>
+        <table class="table table-dark" id="main_matrix">
+        </table>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-7">
+        <div class="tableForm">Save as many as 20 tables by pressing "Save" to add to a tab</div>
+        <br>
+        <div id="tabs">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="tabEdit">
+      <input id="deleteAll" type="button" value="DELETE ALL"></input>
+    </div>
+
+    <!-- JQuery Files -->
+    <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type='text/javascript' src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <!-- My javascript file -->
+    <script src="js/dynamicMatrix.js"></script>
+  </body>
+</html>
